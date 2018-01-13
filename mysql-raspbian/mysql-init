@@ -1,0 +1,6 @@
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('jP73+t@=');
+CREATE DATABASE accountbook;
+CREATE USER 'accountbook'@'%' IDENTIFIED BY 'accounTbook_123';
+GRANT ALL PRIVILEGES ON accountbook.* TO 'accountbook'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
